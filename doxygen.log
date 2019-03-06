@@ -109,7 +109,6 @@ Parsing file /home/travis/build/zdzhaoyong/G/home/travis/build/zdzhaoyong/GSLAM/
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:10: warning: Compound GSLAM::TileBase is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/Undistorter.h:18: warning: Compound GSLAM::UndistorterImpl is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/Svar.h:391: warning: Compound GSLAM::SvarLanguage is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:107: warning: Compound Zhaoyong is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GImage.h:96: warning: Compound GSLAM::GImageType is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/Estimator.h:66: warning: Compound GSLAM::Estimator is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:115: warning: Compound GSLAM::GObjectHandle is not documented.
@@ -1118,6 +1117,23 @@ Generat/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/Glog.h:495: wa
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:21: warning: Member hashVal(int _x, int _y, int _z) (function) of class GSLAM::TileBase is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:29: warning: Member read(std::istream &ist, T &obj) (function) of class GSLAM::TileBase is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:32: warning: Member write(std::ostream &ost, T &obj) (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:39: warning: Member ImageTile(const GImage &image=GImage()) (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:41: warning: Member type() const  (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:42: warning: Member getTileImage() (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:43: warning: Member memSizeInBytes() const  (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:44: warning: Member toStream(std::ostream &ostream) (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:53: warning: Member fromStream(std::istream &istream) (function) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:14: warning: Member getTileHeight() (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:15: warning: Member getTilePosition() (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:16: warning: Member getTimeStamp() (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:107: warning: Member call(const std::string &command, void *arg=NULL) (function) of class GSLAM::GObject is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:108: warning: Member draw() (function) of class GSLAM::GObject is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:109: warning: Member toByteArray(std::vector< uchar > &array) (function) of class GSLAM::GObject is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:110: warning: Member fromByteArray(std::vector< uchar > &array) (function) of class GSLAM::GObject is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:66: warning: Member _image (variable) of class GSLAM::ImageTile is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:21: warning: Member hashVal(int _x, int _y, int _z) (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:29: warning: Member read(std::istream &ist, T &obj) (function) of class GSLAM::TileBase is not documented.
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:32: warning: Member write(std::ostream &ost, T &obj) (function) of class GSLAM::TileBase is not documented.
 ing group documentation...
 Generating class documentation...
 Generating docs for compound LoggerVoidify...
@@ -1125,7 +1141,6 @@ Generating docs for compound MessageLogger...
 Generating docs for compound RingBuffer...
 Generating docs for compound stbi_io_callbacks...
 Generating docs for compound VecParament...
-Generating docs for compound Zhaoyong...
 Generating namespace index...
 Generating docs for namespace GSLAM
 Generating docs for compound GSLAM::CameraImpl...
@@ -1199,24 +1214,8 @@ Generating docs for compound GSLAM::CallbackInfoStruct...
 Generating docs for compound GSLAM::Scommand...
 Generating docs for compound GSLAM::SvarLanguage...
 Generating docs for compound GSLAM::TileBase...
-Generating docs fo/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:39: warning: Member ImageTile(const GImage &image=GImage()) (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:41: warning: Member type() const  (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:42: warning: Member getTileImage() (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:43: warning: Member memSizeInBytes() const  (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:44: warning: Member toStream(std::ostream &ostream) (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:53: warning: Member fromStream(std::istream &istream) (function) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:14: warning: Member getTileHeight() (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:15: warning: Member getTilePosition() (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:16: warning: Member getTimeStamp() (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:107: warning: Member call(const std::string &command, void *arg=NULL) (function) of class GSLAM::GObject is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:108: warning: Member draw() (function) of class GSLAM::GObject is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:109: warning: Member toByteArray(std::vector< uchar > &array) (function) of class GSLAM::GObject is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/GSLAM.h:110: warning: Member fromByteArray(std::vector< uchar > &array) (function) of class GSLAM::GObject is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:66: warning: Member _image (variable) of class GSLAM::ImageTile is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:21: warning: Member hashVal(int _x, int _y, int _z) (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:29: warning: Member read(std::istream &ist, T &obj) (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:32: warning: Member write(std::ostream &ost, T &obj) (function) of class GSLAM::TileBase is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:73: warning: Member TerrainTile(const GImage &image=GImage(), const GImage &dem=GImage()) (function) of class GSLAM::TerrainTile is not documented.
+Generating docs for compound GSLAM::ImageTile...
+Generating/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:73: warning: Member TerrainTile(const GImage &image=GImage(), const GImage &dem=GImage()) (function) of class GSLAM::TerrainTile is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:75: warning: Member type() const  (function) of class GSLAM::TerrainTile is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:77: warning: Member getTileHeight() (function) of class GSLAM::TerrainTile is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager.h:79: warning: Member memSizeInBytes() const  (function) of class GSLAM::TerrainTile is not documented.
@@ -2482,16 +2481,18 @@ Generating docs fo/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/Til
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:2294: warning: Member value (variable) of class tinyxml2::Entity is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:4260: warning: Member Fits(unsigned long value) (function) of class tinyxml2::LongFitsIntoSizeTMinusOne is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:4268: warning: Member Fits(unsigned long) (function) of class tinyxml2::LongFitsIntoSizeTMinusOne< false > is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:41: warning: unable to resolve link to `TooN::Vector' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:41: warning: unable to resolve link to `TooN::Matrix' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:41: warning: unable to resolve link to `gLinAlg' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:42: warning: unable to resolve link to `gDecomps' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: unable to resolve link to `gOptimize' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:44: warning: unable to resolve link to `gTransforms' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:45: warning: unable to resolve link to `gEquations' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:46: warning: unable to resolve link to `gFunctions' for \link command
-r compound GSLAM::ImageTile...
-Generating docs for compound GSLAM::TerrainTile...
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:41: warning: unable to resolve link to `Estimator' for \link command
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:42: warning: Unexpected token TK_LISTITEM
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:42: warning: Illegal command link as part of a \link
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: Unexpected token TK_LISTITEM
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: Illegal command link as part of a \link
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:48: warning: Illegal command section as part of a \link
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:53: warning: Unexpected token TK_LISTITEM
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:53: warning: Illegal command ref as part of a \link
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:55: warning: Illegal command subsection as part of a \link
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:56: warning: Unexpected end of comment while inside link command
+
+ docs for compound GSLAM::TerrainTile...
 Generating docs for compound GSLAM::TerrainTileWithInfo...
 Generating docs for compound GSLAM::TileManager...
 Generating docs for nested compound GSLAM::TileManager::TileArea...
@@ -2562,5 +2563,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 4279/65536 hits=36998 misses=4519
+lookup cache used 4276/65536 hits=36993 misses=4516
 finished...
