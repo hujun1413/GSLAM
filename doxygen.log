@@ -2481,17 +2481,7 @@ Generating/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/TileManager
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:2294: warning: Member value (variable) of class tinyxml2::Entity is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:4260: warning: Member Fits(unsigned long value) (function) of class tinyxml2::LongFitsIntoSizeTMinusOne is not documented.
 /home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/GSLAM/core/XML.h:4268: warning: Member Fits(unsigned long) (function) of class tinyxml2::LongFitsIntoSizeTMinusOne< false > is not documented.
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:41: warning: unable to resolve link to `Estimator' for \link command
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:42: warning: Unexpected token TK_LISTITEM
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:42: warning: Illegal command link as part of a \link
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: Unexpected token TK_LISTITEM
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: Illegal command link as part of a \link
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:48: warning: Illegal command section as part of a \link
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:53: warning: Unexpected token TK_LISTITEM
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:53: warning: Illegal command ref as part of a \link
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:55: warning: Illegal command subsection as part of a \link
-/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:56: warning: Unexpected end of comment while inside link command
-
+/home/travis/build/zdzhaoyong/GSLAM/build/GSLAM/doc/documentation.h:43: warning: unable to resolve link to `GSLAM::Vocabular' for \link command
  docs for compound GSLAM::TerrainTile...
 Generating docs for compound GSLAM::TerrainTileWithInfo...
 Generating docs for compound GSLAM::TileManager...
