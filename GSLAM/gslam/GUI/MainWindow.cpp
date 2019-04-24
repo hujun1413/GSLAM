@@ -535,6 +535,7 @@ void MainWindow::runSLAMMain()
         }
 
         frameVis->showFrame(frame);
+        //win3d->draw();
 //        gimageVis->imshow("CurrentImage",frame->getImage());
 
         if(status==ONESTEP){

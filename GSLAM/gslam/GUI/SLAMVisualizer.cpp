@@ -38,7 +38,7 @@ void SLAMVisualizer::handle(const SPtr<GObject>& obj){
         _vis->update();
 
         updateGL();
-//        LOG(INFO)<<"Map";
+        LOG(INFO)<<"Map";
     }
     else if(FramePtr e=std::dynamic_pointer_cast<MapFrame>(obj))
     {
@@ -47,7 +47,7 @@ void SLAMVisualizer::handle(const SPtr<GObject>& obj){
         if(_vis)
             _vis->update();
         updateGL();
-//        LOG(INFO)<<"MapFrame";
+        LOG(INFO)<<"MapFrame";
     }
     else if(auto e=std::dynamic_pointer_cast<CurrentFrameEvent>(obj))
     {
