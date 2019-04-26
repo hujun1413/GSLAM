@@ -535,8 +535,9 @@ void MainWindow::runSLAMMain()
         }
 
         frameVis->showFrame(frame);
-        //win3d->draw();
-//        gimageVis->imshow("CurrentImage",frame->getImage());
+        //call("Show");
+        //cout << "hujun" << endl;
+        //gimageVis->imshow("CurrentImage",frame->getImage());
 
         if(status==ONESTEP){
             status=PAUSE;

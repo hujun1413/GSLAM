@@ -33,6 +33,10 @@ public:
     }
 
     ~Evaluation(){
+        writeFile();
+    }
+
+    void writeFile() {
         std::ofstream ofs(svar.GetString("evaluation","evaluation.txt"));
         std::ofstream traj(svar.GetString("trajectory","eva_traj.txt"));
 //        std::map<FrameID,FrameData> vec;
@@ -68,6 +72,10 @@ public:
         d.mem_usage=MemoryMetric::instanceCPU().usage();
         d.cpu_usage=_cpumetric.usage();
         d.pose=fr.getPoseScale();
+
+        if (fr.id() == 1636) {
+            writeFile();
+        }
 
         _pub_framedata.publish(d);
     }

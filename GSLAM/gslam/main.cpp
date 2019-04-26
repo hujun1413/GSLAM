@@ -1,6 +1,7 @@
 #include "../core/Svar.h"
 #include "../core/Timer.h"
 #include "Tests/gtest.h"
+#include "../core/MemoryMetric.h"
 #if defined(HAS_QT)
 #include "GUI/MainWindow.h"
 #include <QApplication>
